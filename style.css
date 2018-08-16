@@ -18,11 +18,17 @@ body
 }
 
 .box {
-  background-image: url("https://i.gyazo.com/849a15b9aaf96ee8ce3491320c265114.jpg");
+  background-image: url(./images/MZ18063DSCF4580_TP_V.jpg);
   height: 500px;
   width: 100%;
   background-size: cover;
   background-position: center center;
+}
+
+@media (max-width: 768px) {
+  .box {
+    height: 250px;
+  }
 }
 
 .text-center
